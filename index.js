@@ -229,7 +229,6 @@ class PdfReader extends Component<Props, State> {
             source={{ uri: htmlPath }}
             mixedContentMode="always"
             scrollEnabled
-            height="100vh"
           />
         </View>
       )
